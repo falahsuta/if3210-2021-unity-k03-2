@@ -87,9 +87,10 @@ Ada dua mode yang diimplementasikan pada game ini, yaitu:
 2. Game mode Coin Collection
 
 * 13518102 Muhammad Falah Sutanwindaya
-1. Animasi saat bergerak
-2. Dua jenis senjata
+1. Animasi 
+2. Dua jenis senjata (not done)
 3. Collision
+4. Object pooling (not done)
 
 ## About
 
