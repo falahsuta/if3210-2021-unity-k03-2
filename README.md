@@ -20,13 +20,13 @@ dan mode bermain. Pada game ini, pemain akan bermain melawan pemain yang lain pa
 
 ### Multiplayer dapat dijalankan secara local area network dengan lebih dari dua pemain. 
 
-Fitur ini TIDAK kami implementasikan.
+Fitur ini TIDAK SELESAI kami implementasikan.
 
 ### Main Menu
 
 ![](xxx)
 
-Pada main menu, terdapat pilihan untuk bermain game dimana pilihan tersebut terdiri dari mode yang ingin dimainkan serta map yang ingin dimainkan. Selain itu, pada main menu, terdapat pula settings untuk mengatur intensitas suara.
+Pada main menu, terdapat pilihan untuk bermain game dimana pilihan tersebut terdiri dari mode yang ingin dimainkan serta map yang ingin dimainkan. Selain itu, pada main menu, terdapat pula settings untuk mengatur intensitas suara, serta credits.
 
 ### Map
 
@@ -72,7 +72,8 @@ Ada dua mode yang diimplementasikan pada game ini, yaitu:
 ## Library yang digunakan dan justifikasinya
 
 * asset gold coin: tidak perlu membuat 3d asset dari awal
-
+* mirror: untuk memudahkan multiplayer LAN
+* lowpoly environment: assets untuk membuat map baru
 
 ## Pembagian Kerja Anggota Kelompok
 * 13518015 Arief Darmawan Tantriady
