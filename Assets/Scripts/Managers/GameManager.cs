@@ -5,27 +5,40 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public int m_NumRoundsToWin = 3;        
+    public int m_NumRoundsToWin = 3;  
     public float m_StartDelay = 1f;         
-    public float m_EndDelay = 2f;           
-    public CameraControl m_CameraControl;   
-    public Text m_MessageText;              
-    public GameObject m_TankPrefab;         
+    public float m_EndDelay = 2f;
+    public string playerOneName;
+    public string playerTwoName;
+    public CameraControl m_CameraControl;
+    public Text m_MessageText;
+    public TankCoin[] m_Coin;
+    public GameObject m_CoinPrefab;
+    public GameObject m_TankPrefab;
+    public GameObject m_ForestMap;
+    public GameObject m_SnowMap;
     public TankManager[] m_Tanks;           
-
 
     private int m_RoundNumber;              
     private WaitForSeconds m_StartWait;     
     private WaitForSeconds m_EndWait;       
     private TankManager m_RoundWinner;
-    private TankManager m_GameWinner;       
-
+    private TankManager m_GameWinner;
 
     private void Start()
     {
+
         m_StartWait = new WaitForSeconds(m_StartDelay);
         m_EndWait = new WaitForSeconds(m_EndDelay);
 
+        if (PlayerPrefs.GetString("map") == "0")
+        {
+            Instantiate(m_ForestMap, new Vector3(0, 0, 0), Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(m_SnowMap, new Vector3(0, 0, 0), Quaternion.identity);
+        }
         SpawnAllTanks();
         SetCameraTargets();
 
@@ -96,7 +109,7 @@ public class GameManager : MonoBehaviour
 		m_MessageText.text = string.Empty;
 
 		while (!OneTankLeft()) {
-			yield return null;	
+            yield return null;	
 		}
     }
 
