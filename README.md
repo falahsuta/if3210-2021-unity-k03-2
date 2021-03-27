@@ -88,9 +88,9 @@ Ada dua mode yang diimplementasikan pada game ini, yaitu:
 
 * 13518102 Muhammad Falah Sutanwindaya
 1. Animasi 
-2. Dua jenis senjata (not done)
+2. Dua jenis senjata (fail)
 3. Collision
-4. Object pooling (not done)
+4. Object pooling (fail)
 
 ## About
 
