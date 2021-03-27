@@ -24,19 +24,19 @@ Fitur ini TIDAK SELESAI kami implementasikan.
 
 ### Main Menu
 
-![](screenshot/menu.PNG)
+![](Screenshot/menu.PNG)
 
 Pada main menu, terdapat pilihan untuk bermain game dimana pilihan tersebut terdiri dari mode yang ingin dimainkan serta map yang ingin dimainkan. Selain itu, pada main menu, terdapat pula settings untuk mengatur intensitas suara, serta credits.
 
 ### Credits
 
-![](screenshot/credits.PNG)
+![](Screenshot/credits.PNG)
 
 ### Map
 
-![](screenshot/mapoption.PNG)
-![](screenshot/battleroyalplay.PNG)
-![](screenshot/coincollectionplay.PNG)
+![](Screenshot/mapoption.PNG)
+![](Screenshot/battleroyalplay.PNG)
+![](Screenshot/coincollectionplay.PNG)
 
 
 Terdapat dua map yang dapat dipilih dalam game ini, yaitu:
@@ -47,7 +47,7 @@ Setiap map memiliki desain dan luasan yang berbeda.
 
 ### Cash
 
-![](screenshot/battleroyalplay.PNG)
+![](Screenshot/battleroyalplay.PNG)
 
 
 Terdapat objek cash yang muncul secara periodik pada mode battle royal. Tank dapat mengambil cash untuk menambahkan uang yang dimilikinya. Pada mode CoinCollecting tidak ada pengambilan cash.
@@ -65,7 +65,7 @@ yang ada di map seperti rumah, pohon, batu, dll.
 
 ### Mode
 
-![](screenshot/modeoption.PNG)
+![](Screenshot/modeoption.PNG)
 
 Ada dua mode yang diimplementasikan pada game ini, yaitu:
 * Battle Royale: Player saling bertarung hingga HP dari musuh mencapai 0. Permainan bersifat best of 5.
